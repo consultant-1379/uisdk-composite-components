@@ -1,0 +1,18 @@
+[
+  {
+    "hostname": "UiTestGrid",
+    "ip": "141.137.232.251",
+    "type": "SELENIUM_GRID",
+    "users": [
+      {
+        "username": "root",
+        "password": "shroot",
+        "type": "admin"
+      }
+    ],
+    "ports": {
+      "ssh": 22,
+      "http": 4444
+    }
+  }
+]

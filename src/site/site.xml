@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/DECORATION/1.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/DECORATION/1.0.0 http://maven.apache.org/xsd/decoration-1.0.0.xsd">
+
+    <body>
+        <menu name="Getting Started">
+            <item name="Introduction" href="/index.html"/>
+            <item name="Using Composite Components" href="/using_composite_components.html"/>
+            <item name="Composite Components Available" href="/composite_components_available.html"/>
+        </menu>
+        <menu name="Examples">
+            <item name="Table Example" href="/table_example.html"/>
+            <item name="Dropdown Example" href="/dropdown_example.html"/>
+        </menu>
+        <menu name="API Documentation">
+            <item name="UI SDK Composite Components API" href="/apidocs/index.html"/>
+        </menu>
+        <menu name="Contributing">
+            <item name="How to Contribute" href="/contributing.html"/>
+        </menu>
+
+    </body>
+
+    <skin>
+        <groupId>com.ericsson.cds</groupId>
+        <artifactId>ericsson-skin-stats</artifactId>
+        <version>1.0.1</version>
+    </skin>
+    <custom>
+        <uiStats>
+            <serverUrl>https://cds.ericsson.se/analytics/</serverUrl>
+            <siteId>12</siteId>
+        </uiStats>
+        <fluidoSkin>
+            <sourceLineNumbersEnabled>false</sourceLineNumbersEnabled>
+        </fluidoSkin>
+    </custom>
+</project>
